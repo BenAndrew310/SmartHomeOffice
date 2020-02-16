@@ -28,8 +28,8 @@ GPIO.setup(LED,GPIO.OUT)
 GPIO.output(LED,False)
 
 ulr = ''
-deviceId = "DpvsvmL1"  
-deviceKey = "BlKrcqVKHfhSYLSi"
+deviceId = "deviceId"     # use the device ID and device Key given by Mediatek Cloud Sandbox
+deviceKey = "deviceKey"   # For privacy and security, the real device ID and Key are removed from here 
 
 def post_to_mcs(payload): # upload data points to mcs
     host = "http://api.mediatek.com"
