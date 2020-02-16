@@ -8,15 +8,15 @@ from win10toast import ToastNotifier
 
 class GMR:
 
-	OPEN_WEATHER_API_KEY  = "e460e78f7225e212175be360cfb28054"
+	OPEN_WEATHER_API_KEY  = "weather_api_key"
 	OPEN_WEATHER_HOST     = "https://api.openweathermap.org"
 
-	NEWS_API_KEY		  = "3873b0842df94b4a91fc3298d4e98371"
+	NEWS_API_KEY		  = "news_api_key"
 	NEWS_API_HOST		  = "https://newsapi.org"
 
 	MCS_API_HOST		  = "http://api.mediatek.com"
-	MCS_DEVICE_ID		  = "DpvsvmL1"
-	MCS_DEVICE_KEY		  = "BlKrcqVKHfhSYLSi"
+	MCS_DEVICE_ID		  = "mcs_device_id"
+	MCS_DEVICE_KEY		  = "mcs_device_key"
 
 	COUNTER				  = 1
 	SLEEP_DELAY           = 45
